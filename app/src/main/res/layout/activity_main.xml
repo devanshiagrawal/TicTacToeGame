@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="128dp"
+        android:layout_height="168dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="339dp"
+        android:textSize="40dp"
+        android:onClick="clickbox" />
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="141dp"
+        android:layout_height="167dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="268dp"
+        android:layout_marginRight="268dp"
+        android:layout_marginBottom="167dp"
+        android:textSize="40dp"
+        android:onClick="clickbox" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="89dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="317dp"
+        android:layout_marginRight="317dp"
+        android:text="Textview" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="272dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:onClick="clear"
+        android:text="RESET" />
+
+    <Button
+        android:id="@+id/button05"
+        android:layout_width="130dp"
+        android:layout_height="167dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131dp"
+        android:textSize="40dp"
+        android:layout_marginRight="131dp"
+        android:layout_marginBottom="170dp"
+        android:onClick="clickbox" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="126dp"
+        android:layout_height="170dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="40dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginBottom="337dp"
+        android:onClick="clickbox" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="126dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginRight="268dp"
+        android:textSize="40dp"
+        android:layout_marginBottom="336dp"
+        android:onClick="clickbox" />
+
+    <Button
+        android:id="@+id/button08"
+        android:layout_width="130dp"
+        android:layout_height="167dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:textSize="40dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginBottom="2dp"
+        android:onClick="clickbox" />
+
+    <Button
+        android:id="@+id/button06"
+        android:layout_width="128dp"
+        android:layout_height="168dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:textSize="40dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="170dp"
+        android:onClick="clickbox" />
+
+    <Button
+        android:id="@+id/button07"
+        android:layout_width="141dp"
+        android:layout_height="172dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="268dp"
+        android:layout_marginRight="268dp"
+        android:layout_marginBottom="-1dp"
+        android:onClick="clickbox"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button09"
+        android:layout_width="125dp"
+        android:layout_height="170dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="2dp"
+        android:onClick="clickbox" />
+
+
+</RelativeLayout>
